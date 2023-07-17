@@ -1,0 +1,31 @@
+{
+  "menu": [
+    {
+      "title": "xfcghvjbkn.m",
+      "composition": "cvbnm ,.",
+      "prise": "",
+      "image": "dfxghcvjbklnm",
+      "category": "dessert",
+      "price": "bvnmb,n.",
+      "id": 1
+    },
+    {
+      "title": "1212121",
+      "composition": "12121212",
+      "prise": "",
+      "image": "2121212",
+      "category": "fastFood",
+      "price": "212121",
+      "id": 2
+    },
+    {
+      "title": "333333",
+      "composition": "3333333",
+      "prise": "",
+      "image": "333333",
+      "category": "soups",
+      "price": "333333",
+      "id": 3
+    }
+  ]
+}
