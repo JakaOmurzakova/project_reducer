@@ -4,11 +4,13 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import FoodContext from "./contexts/FoodContext";
+import Toastify from "./components/Toastify";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <FoodContext>
+      <Toastify />
       <App />
     </FoodContext>
   </BrowserRouter>
