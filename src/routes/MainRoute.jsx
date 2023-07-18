@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import MainLayouts from "../layouts/MainLayouts";
 import MenuPage from "../pages/MenuPage";
 import AddFoodPage from "../pages/AddFoodPage";
+import EditFoodPage from "../pages/EditFoodPage";
 
 const MainRoute = () => {
   return (
@@ -14,6 +15,7 @@ const MainRoute = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<MenuPage />} />
           <Route path="/add" element={<AddFoodPage />} />
+          <Route path="/edit/:id" element={<EditFoodPage />} />
         </Route>
 
         <Route path="*" element={<NoteFoundPage />} />
